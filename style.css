@@ -1,0 +1,333 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+
+    
+}
+/*-- ================= Common Css ===================== --*/
+
+section{
+    height: 720px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+h4{
+	color: rgb(216, 49, 8);
+}
+h2{
+	font-size: 40px;
+}
+p{
+   color: grey; 
+   text-align: justify;
+   line-height: 1.5;
+   box-sizing: border-box;
+}
+
+/*-- ================= nav section ===================== --*/
+
+.navbar-brand{
+    margin-left: 6%;
+    height: 40px;
+    
+}
+.nav-item:hover{
+    background-color: rgba(82, 103, 136, 0.685);
+    color:black ;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 1px 0 2px 0;
+}
+
+
+/*-- ================= top banner section ===================== --*/
+
+.top-banner{
+    background-image: url(pic/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width:40% ;
+    float: left;
+    margin-left: 5%;
+}
+.first{
+	margin-top: 30px;
+}
+
+.half-width img{
+       width: 100%;
+   }
+
+.name{
+	color: rgb(38, 3, 153);
+	font-size: 45px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+	font-weight: 700;
+    background-image: linear-gradient(45deg, rgb(51, 193, 240), rgb(36, 36, 207));
+}
+
+.link-button:hover{
+    text-decoration: none;
+	  color: black;
+	  background-image: linear-gradient(45deg, rgb(36, 36, 207),rgb(51, 193, 240)) ;
+	  
+
+}
+
+
+/*-- ================= dream section ===================== --*/
+
+
+.dream-area{
+    background-image: url(pic/dream-bg.png);
+	background-repeat: no-repeat;
+	height: 620px;
+	background-position: right;  
+}
+
+.biography{
+	margin-top: 100px;
+}
+.dedicate{
+	line-height: 1.2;
+	padding: 10px 0 10px 0;
+}
+
+
+/*-- ================= what I Do section ===================== --*/
+
+
+
+.do{
+	height: 600px;
+	background-image: url(pic/top-banner.png);
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-left: 5%;
+}
+.do-width img{
+		width: 25%;
+		float: left;
+		margin:3%;
+		box-shadow: 10px 10px 40px rgba(48, 26, 122, 0.87);
+		border-radius: 5px;
+		
+	
+}
+.do-width img:hover{
+	box-shadow: 10px 10px 40px rgba(5, 165, 138, 0.87);
+	cursor: pointer;
+}
+
+/*-- ================= My last Work section ===================== --*/
+
+
+.work{
+    background-image: url(pic/latest-work-bg.png);
+	background-repeat: no-repeat;
+	height: 550px;
+}
+.last-work{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.third-width img{
+
+    width: 28%;
+    float: left;
+    margin:2%;
+    box-shadow: 10px 10px 40px rgba(30, 105, 202, 0.801);
+    border-radius: 5px;
+   
+}
+.third-width img:hover{
+	box-shadow: 10px 10px 40px rgba(6, 185, 51, 0.801);
+cursor: pointer;
+}
+/*-- ================= Comment section ===================== --*/
+
+
+#service{
+    text-align: center;
+	margin-bottom: 50px ;
+	box-sizing: border-box;
+
+}
+
+#client{
+    font-size: 50px;
+}
+
+#bruce{
+    font-size: 30px;
+}
+#ceo{
+	font-size: 20px;
+	text-align: center;
+}
+
+.lorem{
+	color: black;
+	text-align: center;
+}
+
+
+
+/*-- ================= footer section ===================== --*/
+
+
+
+footer{
+    bottom: 0;
+    margin-bottom: -200px;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}	
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center  img{
+	background-color:  #ffffff;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	line-height: 42px;
+	margin: 10px 15px;
+	padding: 5px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right, .sp{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center img{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
